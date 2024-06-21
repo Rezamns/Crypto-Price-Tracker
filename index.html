@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#000">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Price Tracker</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="icon" type="image" href="./assets/img/title-icon.ico">
+
+</head>
+
+<body>
+  <div class="main">
+    <h1>Crypto Price Tracker</h1>
+
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Cryptocurrency</th>
+            <th>Price</th>
+            <th>24h %</th>
+            <th>24h Volume</th>
+            <th>Market Cap</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span id="btcLogo"></span></td>
+            <td><strong>Bitcoin</strong> <span id="btcSymbol">...loading...</span></td>
+            <td><span id="btcPrice">...loading...</span></td>
+            <td><span id="btcChange">...loading...</span></td>
+            <td><span id="btcVol">...loading...</span></td>
+            <td><span id="btcCap">...loading...</span></td>
+          </tr>
+          <tr>
+            <td><span id="ethLogo"></span></td>
+            <td><strong>Ethereum</strong> <span id="ethSymbol">...loading...</span></td>
+            <td><span id="ethPrice">...loading...</span></td>
+            <td><span id="ethChange">...loading...</span></td>
+            <td><span id="ethVol">...loading...</span></td>
+            <td><span id="ethCap">...loading...</span></td>
+          </tr>
+          <tr>
+            <td><span id="dogeLogo"></span></td>
+            <td><strong>Dogecoin</strong> <span id="dogeSymbol">...loading...</span></td>
+            <td><span id="dogePrice">...loading...</span></td>
+            <td><span id="dogeChange">...loading...</span></td>
+            <td><span id="dogeVol">...loading...</span></td>
+            <td><span id="dogeCap">...loading...</span></td>
+          </tr>
+          <tr>
+            <td><span id="xrpLogo"></span></td>
+            <td><strong>Ripple</strong> <span id="xrpSymbol">...loading...</span></td>
+            <td><span id="xrpPrice">...loading...</span></td>
+            <td><span id="xrpChange">...loading...</span></td>
+            <td><span id="xrpVol">...loading...</span></td>
+            <td><span id="xrpCap">...loading...</span></td>
+          </tr>
+          <tr>
+            <td><span id="shibLogo"></span></td>
+            <td><strong>Shiba Inu</strong> <span id="shibSymbol">...loading...</span></td>
+            <td><span id="shibPrice">...loading...</span></td>
+            <td><span id="shibChange">...loading...</span></td>
+            <td><span id="shibVol">...loading...</span></td>
+            <td><span id="shibCap">...loading...</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p id="lastUpdate">Last Update: <span id="btcTime">...loading...</span></p>
+
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large footer">
+    Powered by <a class="footertext" href="#">Reza-Mns</a>
+  </div>
+</body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src="./assets/js/script.js"></script>
+
+</html>

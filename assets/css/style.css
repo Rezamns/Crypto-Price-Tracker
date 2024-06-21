@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+body, html {
+    margin: 0%;  
+    background-image: url('../img/wallpaper.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p, h1 {
+  color: #000;
+  text-align: center;
+  margin: 0;
+  font-weight: bolder;
+  padding: 20px 20px 0 20px;
+} 
+
+h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+img {
+  max-width: 40px;
+}
+
+div {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+table {
+  background: rgba(255, 255, 255, .95);
+  color: #000;
+  text-align: right;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+
+tr {
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background: black;
+  color: whitesmoke;
+  line-height: 25px;
+}
+
+th, td {
+  margin: 0;
+  padding: 10px 20px;
+}
+
+th:nth-of-type(2),
+td:nth-of-type(2) {
+  text-align: left;
+}
+
+.positive {
+  color: #6abe2a;
+  font-weight: 600;
+}
+
+.negative {
+  color: #ff0000;
+  font-weight: 600;  
+}
+
+.footertext {
+    color: black;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+}
+
+.footer {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+}
+
+#lastUpdate {
+  padding-top: 5px;
+}
